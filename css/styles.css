@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../imag/back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+    color: aliceblue;
+    
+  }
+
+header{
+    display: flex;
+    justify-content: center;
+}  
+
+.logo, .Top_menu{
+    margin-right: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Top_menu li{
+    margin-right: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Top_menu a{
+    font-family: arial;
+    font-size: 15px;
+    color: white;
+    vertical-align: middle;
+}
+
+.logo h1{
+    
+    font-family: arial;
+    font-size: 30px;
+    color: white;
+    vertical-align: middle;
+}
+
+.Top_menu a:hover{
+    color: aqua;
+}
+
+footer{
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: arial;
+    padding-top: 20px;
+    color: #fff;
+
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem;
+
+}
+
+.socials li{
+    margin: 0 10px;
+
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: aqua;
+
+}
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}
+
+
+
+
+
+
+
+
+
+
+.body-content {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: list-item;
+    align-content: center;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team1-input {
+    margin-top: 200px;
+    margin-right: 20rem;
+    font-family: Arial;
+}
+
+.team1-input textarea {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    width: 400px;
+    height: 70px;
+    border-radius: 3%;
+}
+
+.team1-input input {
+    margin-top: 10px;
+    width: 400px;
+    height: 40px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 3%;
+}
+
+.input h3 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px #000;
+}
+
+.team2-input {
+    margin-top: 200px;
+    font-family: arial;
+}
+
+.team2-input textarea {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    width: 400px;
+    height: 70px;
+    border-radius: 3%;
+}
+
+.team2-input input {
+    margin-top: 10px;
+    width: 400px;
+    height: 40px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 3%;
+}
+
+.body-content button {
+    width: 120px;
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #ffffff(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+}
+
+#check:hover {
+    transition: 1s ease;
+    color: #ffffff(28, 70, 36);
+    border: none;
+    background-color: #ff0000;
+
+}
+
+#result {
+    margin-top: 10px;
+    margin-left: 36.5rem;
+    width: 400px;
+    height: 40px;
+    background-color: rgb(190, 163, 81);
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 10px;
+}
+#check{
+    margin-left: 46rem;
+    text-align: center;
+    background-color: rgb(190, 163, 81);
+}
+#result-1{
+    color: rgb(0, 0, 0);
+}
+#result-2{
+    color: rgb(0, 0, 0);    
+}
+
+
+
+.body-cont {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: list-item;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+    
+
+}
+.text-block {
+    background: #000;
+
+}
